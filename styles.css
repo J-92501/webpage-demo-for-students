@@ -1,3 +1,13 @@
+body {
+    background-color: #396c39;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    text-align: center;
+}
+
 .lists {
     width: 250px;
     border: 7px groove;
