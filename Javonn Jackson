@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grey Background</title>
+</head>
+<body style="background-color: grey;">
+    <h1>Welcome to My Webpage</h1>
+</body>
+</html>
+
+    <img
+src="https://i.pinimg.com/280x280_RS/f1/0e/3e/f10e3e33e295fc89d64bb986e7a2a250.png" 
+alt="image of my art"
+width="200"
+height=200"
+/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javonn's First Webpage (In javascript)</title>
+</head>
+<body> 
+    <div class="list-flex"
+<h2>my interest</h2>
+<ul>
+<li>art/Illustrattion</li>
+<li>Reading</li
+<li>light exercise</li
+</ul>
+</div> 
+    
+    <article>
+        <section>
+            <h1>My First Webpage (now with JavaScript)</h1>
+            <div>
+                <h2>My favorite shows</h2>
+                <button onclick="showItems()">Show Favs</button>
+                <ul id="hidden-list" style="display: none;">
+                    <li>Gravity falls</li> 
+                    <li>2007's Ben 10</li>
+                    <li>Justice league Unlimated</li>
+                </ul>
+                <h2>My favorite movies</h2> 
+            </ul>
+        </div>
+        <div class="list">
+        <li>puss in boots the last wish</li>
+        <li>Transformers one</li>
+        <li>The wild robot</li> 
+        <h2>favorite fictonal characters</li>
+        </ul>
+        </div>
+            </div>
+            <div>
+                <h2 id="para-heading"></h2>
+                <p id="para-body"></p>
+            </div>
+            <button onclick="showDateAndTime()">Show Date and Time</button>
+        </section>
+    </article>
+
+<style>
+
+</style>
+
+<script>
+    function showItems () {
+        document.getElementById("hidden-list").style.display = "block";
+    }
+
+    document.getElementById("para-heading").innerHTML = "A Little About Me"
+    document.getElementById("para-body").innerHTML = "Hello, my name is Javonn M. Jackson. I live In Huntington, WV. I am 21 and I have a dog named scrappy doo that is part chiwawa and part pomeranian; my goal in the future is I want to be a professional illustrator/frelance cartoonist.";
+
+    function showDateAndTime () {
+        document.body.innerHTML += "<div> Today's date and time is " + new Date() + "</div>";
+    }
+</script>
+
+</body>
+</html>
